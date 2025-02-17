@@ -1,0 +1,44 @@
+body{
+  color:black;
+  background:linear-gradient(-45deg,#ff5733,#ffbd33,#33ff57,#3357ff);
+  background-attachment: fixed;
+  animation: animateBG 10s infinite linear;
+  text-align: center;
+  font-family:cursive;
+  font-size: 20px;
+}
+@keyframes animateBG{
+  0%{
+    background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{ background-position: 0% 50%}
+}
+header {
+  color: black;
+  padding: 20px;
+}
+h1{
+  color:orangered;
+  padding-bottom: 40px;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color:black;
+  gap: 80px;
+}
+a{
+  text-decoration: solid;
+  color:white;
+}
+a:hover{
+  border-radius: 10px;
+  background-color:green;
+  
+}
+main{
+  flex:1;
+  padding:50px;
+}
